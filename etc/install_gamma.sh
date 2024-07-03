@@ -27,7 +27,7 @@ echo ""
 
 cd ~/gamma_ws/src
 git clone https://github.com/jkk-research/jkk_utils -b ros2 ## gamma_bringup and other utiltiy packages
-git clone https://github.com/jkk-research/wayp_plan_tools -b ros2  ## waypoint following  and control TODO: update to gamma branch?
+git clone https://github.com/jkk-research/wayp_plan_tools -b gamma
 git clone https://github.com/jkk-research/sim_wayp_plan_tools -b ros2 ## simulator TODO: update to gamma branch?
 git clone https://github.com/jkk-research/patchwork-plusplus-ros -b ROS2 # ground filter
 git clone https://github.com/jkk-research/lidar_cluster_ros2 -b ros2 # cluster
